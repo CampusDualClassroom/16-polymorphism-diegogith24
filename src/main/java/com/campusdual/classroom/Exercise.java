@@ -8,6 +8,9 @@ public class Exercise {
         Plane plane = new Plane("Boeing");
         Tractor tractor = new Tractor(3500);
 
+        plane.maintenance();
+        tractor.stop();
+
         plane.start();
         tractor.start();
 
